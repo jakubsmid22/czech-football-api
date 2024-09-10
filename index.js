@@ -1,11 +1,18 @@
 const express = require("express");
+const path = require('path');
 const app = express();
 const { teams } = require("./teams");
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 
+app.use(express.static(path.join(__dirname, 'client/dist')));
+
 app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/dist', 'index.html'));
+});
+
+app.get("/teams", (req, res) => {
   try {
     const simplifiedTeams = teams.map((team) => {
       const { id, short_name, logo, founded } = team;
@@ -17,11 +24,11 @@ app.get("/", (req, res) => {
   }
 });
 
-app.get("/teams", (req, res) => {
+app.get("/detailed-teams", (req, res) => {
   res.status(200).json(teams);
 });
 
-app.get("/teams/:title", (req, res) => {
+app.get("/detailed-teams/:title", (req, res) => {
   try {
     const title = req.params.title.toLowerCase();
 
