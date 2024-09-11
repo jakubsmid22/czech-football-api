@@ -1000,6 +1000,61 @@ const teams = [
       tiktok: null,
     },
   },
+  {
+    id: 16,
+    title: "karvina",
+    name: "MFK Karviná, a.s.",
+    short_name: "MFK Karviná",
+    logo: "https://www.mfkkarvina.cz/znaky/kar.png?1",
+    nicknames: ["Karviňáci"],
+    founded: 2003,
+    stadium: {
+      name: "Městský stadion Karviná",
+      capacity: 4862,
+      image:
+        "https://www.silektro.cz/wp-content/uploads/2019/11/Realizace-z%C3%A1lohov%C3%A1n%C3%AD-fotbalov%C3%A9ho-stadionu-v-Karvin%C3%A9-1.jpg",
+    },
+    owner: "sdružení občanů",
+    president: "Ing. Jan Wolf",
+    head_coach: "Martin Hyský",
+    location: {
+      country: "Czech Republic",
+      city: "Karviná",
+    },
+    club_website: "https://www.mfkkarvina.cz/",
+    colors: {
+      primary: "Green",
+      secondary: "White",
+      hex: ["#009140", "#FFFFFF"],
+      emoji: "🟢⚪",
+    },
+    achievements: {
+      league_titles: 0,
+      domestic_cups: 0,
+    },
+    rivals: [
+      {
+        name: "FC Baník Ostrava",
+        rivalry_name: "Slezské derby",
+        reason: "local",
+      },
+    ],
+    affiliatedClubs: [],
+    mascot: null,
+    club_legends: [
+      {
+        name: "Michal Papadopulos",
+        reason: "player",
+      },
+    ],
+    socials: {
+      instagram: "https://www.instagram.com/mfkkarvina/",
+      facebook: "https://www.facebook.com/MFKKarvina",
+      x: "https://x.com/mfkkarvina",
+      youtube: "https://www.youtube.com/mfkkarvina2003",
+      tiktok: null,
+    },
+  },
 ];
 
 module.exports = { teams };
