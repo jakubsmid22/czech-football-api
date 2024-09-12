@@ -897,7 +897,7 @@ const teams = [
       },
     ],
     affiliatedClubs: [],
-    mascot: null,
+    mascot: "Rudy",
     club_legends: [
       {
         name: "Pavel Nedvěd",
