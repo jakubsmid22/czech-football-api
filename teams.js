@@ -180,7 +180,7 @@ const teams = [
     title: "hradec",
     name: "Football Club Hradec Králové",
     short_name: "FC Hradec Králové",
-    logo: "https://www.fchk.cz/files/alternativni_logo.jpg",
+    logo: "https://www.fchk.cz/img/alternativni_logo.png",
     nicknames: ["Votroci"],
     founded: 1905,
     stadium: {
