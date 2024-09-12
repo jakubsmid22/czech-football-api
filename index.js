@@ -15,8 +15,8 @@ app.get("/", (req, res) => {
 app.get("/teams", (req, res) => {
   try {
     const simplifiedTeams = teams.map((team) => {
-      const { id, short_name, logo, founded } = team;
-      return { id, name: short_name, logo, founded };
+      const { id, short_name, logo, founded, colors } = team;
+      return { id, name: short_name, logo, founded, colors: colors.hex };
     });
     res.status(200).json(simplifiedTeams);
   } catch (error) {
