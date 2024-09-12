@@ -1,6 +1,5 @@
 # Czech Football API
-
-[API Link]([https://github.com/jakubsmid22/czech-football-api](https://rapidapi.com/jakubsmid22/api/czech-football-api))
+[API Link](https://rapidapi.com/jakubsmid22/api/czech-football-api/playground/apiendpoint_ec3a3bee-6d6d-4001-bf56-1316ee5f7e9e)
 
 ### Overview
 This API provides endpoints to fetch data related to football teams. There are two main types of data available:
